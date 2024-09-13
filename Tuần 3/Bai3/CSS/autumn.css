@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    width: 90%;
+}
+
+header {
+    background-color: #ab4c15;
+    color: #867e03;
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.841), -7px -3px 8px rgb(243, 253, 255);
+    padding: 2%;
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+nav {
+    border-top: solid 2px black;
+    border-bottom: double 5px;
+}
+
+nav ul li {
+    text-decoration-style: none;
+    display: inline-flex;
+    margin: 0% 1%;
+    padding: 1%;
+    color: #ab4c15;
+
+}
+
+nav ul li:hover {
+    background-color: bisque;
+}
+
+
+
+main {
+    display: flex;
+}
+
+section {
+    width: 75%;
+    margin: 0%;
+    border-right: solid;
+    border-width: thin;
+}
+
+aside {
+    width: 25%;
+
+}
+
+section h2 {
+    color: #a98633;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+
+#sct1 {
+    margin: 2% 0%;
+    padding: 0% 5% 0% 10%;
+}
+
+#sct1 div:nth-child(1) {
+    color: #b99542;
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
+#sct1 ul li {
+    list-style-type: none;
+    margin: 3% 0%;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#sct1 ul {
+
+    padding-left: 0%;
+    margin: 10% 0%;
+}
+
+#sct1 input {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+
+    border-bottom: solid;
+    border-width: thin;
+}
+
+#sct1 button {
+    background-color: #7e8001;
+    color: aliceblue;
+    padding: 1%;
+}
+
+aside {
+    margin: 2%;
+}
+
+aside h3 {
+    color: #7e370d;
+    font-size: x-large;
+    letter-spacing: 5px;
+}
+
+aside ul li {
+    list-style-type: square;
+    color: #974f26;
+    font-size: large;
+}
+
+aside ul {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#aside1 {
+    padding: 5%;
+    background-color: antiquewhite;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside div:nth-child(2) {
+    padding: 5%;
+}
+
+#div_img {
+    width: 100%;
+    height: 100%;
+}
+
+aside img {
+    width: 90%;
+    border: solid;
+    border-width: thin;
+    margin: 0%;
+    padding: 5%;
+}
+
+#aside2_1 {
+    float: left;
+    width: 40%;
+
+}
+
+#aside2_2 {
+    font-size: large;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    margin: 5% 0%;
+    padding: 3% 0%;
+    text-align: center;
+    background-image: url(../IMG/corner1.png), 
+        url(../IMG/footer.png), url(../IMG/corner2.png);
+    background-repeat: no-repeat, repeat-x, no-repeat;
+    position: relative;
+    font-size: large;
+}
+
+#footer_img1{
+    position: absolute;
+    width: 10%;
+    top: -0.5%;
+    left:90%;
+}
+#footer_img2{
+    position: absolute;
+    width: 10%;
+    top:30%;
+    left:90%;
+}
+#main_img_background{
+    width: 100%;
+    height: 100px;
+    background-image: url(../IMG/line.png);
+    
+    background-size: contain;
+}

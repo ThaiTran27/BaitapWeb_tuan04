@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.container {
+    width: 850px;
+    height: 521px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #294e79;
+    position: relative;
+}
+
+header img {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+header h2 {
+    top: 25px;
+    left: 80px;
+    position: absolute;
+    color: white;
+}
+
+header h4 {
+    top: 50px;
+    left: 80px;
+    position: absolute;
+    color: white;
+}
+
+header #frm {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+header #frm #txtS {
+    border: 1px solid gray;
+    padding: 2px;
+}
+
+header #frm #btnS {
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #3f72b3;
+}
+
+nav {
+    position: absolute;
+    bottom: 3px;
+    right: 20px;
+}
+
+.menu1 li {
+    display: inline-table;
+    background-color: #3f72b3;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu1 li:hover {
+    background-color: #e673c3;
+}
+
+.menu1 li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu1 .menu2 {
+    display: none;
+    background-color: #3f72b3;
+    line-height: 50px;
+    position: absolute;
+}
+
+.menu1 li:hover > .menu2 {
+    display: block;
+    left: 0px;
+    top: 53px;
+}
+
+.menu1 li:hover {
+    position: relative;
+}
+
+.menu1 li .menu2 li:hover {
+    position: block;
+    top: 2px;
+    left: 0px;
+    width: 115px;
+}
+
+.menu1 li .menu2 li:hover {
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    width: 115px;
+}
+
+.menu1 li .menu2 li:hover {
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    width: 115px;
+}
+
+.section {
+    width: 850px;
+    height: 380px;
+    border-bottom: 1px solid black;
+    color: #6c6b69;
+}
+
+.content1 {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 580px;
+    height: 350px;
+}
+
+.hd2 {
+    float: left;
+    font-size: 18px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed black;
+}
+
+.ct1 {
+    float: left;
+    padding-top: 10px;
+    width: 350px;
+    height: 355px;
+}
+
+.ct1 p {
+    font-size: 13px;
+    color: #c14546;
+    text-shadow: 5px 5px 5px #51cb5e;
+}
+
+.ct1 form {
+    margin-top: 10px;
+}
+
+input {
+    font-size: 13px;
+    background-color: #f7f7f7;
+    border: 1px solid #cbcbcb;
+}
+
+textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #cbcbcb;
+}
+
+.ct1 tr {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.ct2 {
+    display: inline-block;
+    float: left;
+    width: 210px;
+    height: 355px;
+    padding: 10px;
+}
+
+.ct2 .hd3 {
+    font-size: 18px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 10px;
+}
+
+.ct3 {
+    padding-top: 10px;
+}
+
+.ct3 {
+    margin-left: 50px;
+}
+
+.ct3 ul li {
+    list-style-type: none;
+    margin-left: -40px;
+    font-size: 13px;
+}
+
+.ct3 p {
+    font-size: 13px;
+    margin-left: -40px;
+}
+
+.content2 {
+    float: right;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.hd4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed black;
+}
+
+.ct4 {
+    padding-top: 20px;
+}
+
+.ct4 p {
+    font-size: 13px;
+}
+
+.ct4 a {
+    margin-left: 110px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #1e3352;
+}
+
+.content2 img {
+    width: 100%;
+}
+
+footer {
+    height: 30px;
+    background-color: #1e3352;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
